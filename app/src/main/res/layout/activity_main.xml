@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Enter first number :"
+        android:inputType="number"
+        android:shadowColor="#FFFFFF"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:hint="Enter second number :"
+        android:inputType="number"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/teal_700"
+        android:text="Addition"
+        android:textColor="#0C0C0C"
+        android:visibility="visible"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/teal_700"
+        android:text="Subtraction"
+        android:textColor="#0C0C0C"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/mul"
+        android:layout_width="258dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/teal_700"
+        android:text="Multiplication"
+        android:textColor="#101010"
+        android:visibility="visible"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/div"
+        android:layout_width="262dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/teal_700"
+        android:text="Division"
+        android:textColor="#151515"
+        android:visibility="visible"
+        app:backgroundTint="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tV"
+        android:layout_width="244dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:hint="Result will displayed here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#171616" />
+
+</LinearLayout>
